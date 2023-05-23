@@ -68,41 +68,70 @@ header {
     padding-top: 40px;
 }
 
-.carousel-inner {
-    border-radius: 20px;
+.wrapper {
     position: relative;
 }
 
-.carousel-control-prev {
+.carousel-inner {
+    border-radius: 20px;
+    position: relative !important;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
     position: absolute !important;
-    left: -55px;
-    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
-    border-radius: 23px;
+
     width: 42px;
     height: 42px;
-    top: 50%;
-    transition: all 1s ease;
+    background: linear-gradient(270deg, #4d5ef6 0%, #f64d4d 100%);
+    border-radius: 50%;
+    top: 46%;
+
 }
 
 .carousel-control-next {
-    position: absolute !important;
-    right: -55px;
-    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
-    border-radius: 23px;
-    width: 42px;
-    height: 42px;
-    top: 50%;
-    transition: all 1s ease;
+    right: -62px;
 }
 
-.carousel-control-next:hover{   
-    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
-    border-radius: 23px;
-    transition: all 1s ease
+.carousel-control-prev {
+    left: -62px;
 }
 
-.carousel-control-prev:hover{   
-    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
-    border-radius: 23px;
-    transition: all 1s ease
+.carousel-indicators {
+    bottom: -15%;
+}
+
+.carousel-indicators button {
+    position: relative;
+    width: 16px !important;
+    height: 16px !important;
+    background: linear-gradient(270deg, #4d5ef6 0%, #f64d4d 100%);
+    border-radius: 50%;
+}
+
+#category{
+    padding-top: 50px;
+}
+
+.category__slide{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}   
+.category__slide .card{
+    text-align: center;
+    width: 136px;
+    height: 200px;
+}
+
+.category__slide .card-img{
+    object-fit: contain;
+    transform: scale(0.7);
+    transition: all 0.4s ease;
+    width: 136px;
+    height: 136px;
+}
+.category__slide .card-img:hover{
+    transform: scale(0.9);
 }
