@@ -60,6 +60,49 @@ header {
     padding: 13px 31px;
 }
 
-.form-input::placeholder{
+.form-input::placeholder {
     color: #6C757D !important;
+}
+
+#intro {
+    padding-top: 40px;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    position: relative;
+}
+
+.carousel-control-prev {
+    position: absolute !important;
+    left: -55px;
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+    border-radius: 23px;
+    width: 42px;
+    height: 42px;
+    top: 50%;
+    transition: all 1s ease;
+}
+
+.carousel-control-next {
+    position: absolute !important;
+    right: -55px;
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+    border-radius: 23px;
+    width: 42px;
+    height: 42px;
+    top: 50%;
+    transition: all 1s ease;
+}
+
+.carousel-control-next:hover{   
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+    border-radius: 23px;
+    transition: all 1s ease
+}
+
+.carousel-control-prev:hover{   
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+    border-radius: 23px;
+    transition: all 1s ease
 }
