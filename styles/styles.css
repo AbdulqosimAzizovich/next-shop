@@ -110,28 +110,67 @@ header {
     border-radius: 50%;
 }
 
-#category{
+#category {
     padding-top: 50px;
+    margin-bottom: 40px;
 }
 
-.category__slide{
+.category__slide {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-}   
-.category__slide .card{
+}
+
+.category__slide .card {
     text-align: center;
     width: 136px;
     height: 200px;
 }
 
-.category__slide .card-img{
+.category__slide .card-img {
     object-fit: contain;
     transform: scale(0.7);
     transition: all 0.4s ease;
     width: 136px;
     height: 136px;
 }
-.category__slide .card-img:hover{
+
+.category__slide .card-img:hover {
     transform: scale(0.9);
+}
+
+#sales .card-body .about-card {
+    font-weight: 539;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E1E1E;
+
+}
+
+
+
+#sales .card-body p span {
+    font-weight: 591;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0D63F3;
+}
+
+#sales .card-text {
+    font-weight: 539;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6C757D;
+    padding-top: 50px;
+}
+
+#sales button{
+    padding: 10.5px 24.5px;
+}
+
+#sales .sales-btn{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 75px;
 }
